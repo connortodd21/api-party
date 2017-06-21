@@ -1,0 +1,62 @@
+#getCurrentLocation{
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    background: greenyellow;
+    display : block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+#getCurrentLocation:hover{
+    transform: scale(1.3, 1.3);
+    padding: 5px 10px;
+}
+
+#location{
+    width: 400px;
+    height: 20px;
+    font-size: 18px;
+    top: 350px;
+    left: 400px;
+    position: absolute;
+}
+
+#lookUpWeather{
+    position: absolute;
+    left: 515px;
+    top: 400px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#lookUpWeather:hover{
+    border-top-color: #7caecf;
+    background: #7caecf;
+    color: #000000;
+}
+
+#lookUpWeather:active{
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
